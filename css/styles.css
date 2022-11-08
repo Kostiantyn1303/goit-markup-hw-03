@@ -49,8 +49,6 @@ img {
 /* -----------------HEADER--------------------------- */
 .header {
   background-color: var(--white-color);
-  padding-top: 25px;
-  padding-bottom: 25px;
   border-bottom: 1px solid var(--border-header);
 }
 .container.header-container {
@@ -265,7 +263,7 @@ img {
   flex-basis: calc((100% - 90px) / 4);
 }
 .team-text-wrapper {
-  padding: 30px 70px;
+  padding: 30px;
 }
 
 .team-list > .team-item {
@@ -318,6 +316,7 @@ img {
 .adr-text {
   color: var(--white-color);
   display: block;
+  margin-bottom: 9px;
 }
 .map-navigation {
   margin-bottom: 9px;
@@ -334,6 +333,9 @@ img {
 .address-item > .mail-footer {
   color: var(--footer-text-colors);
   text-decoration-line: none;
+}
+.mail-footer {
+  display: block;
   margin-bottom: 9px;
 }
 .mail-footer:hover {
@@ -379,6 +381,7 @@ img {
   border: 0ch;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border-radius: 4px;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
